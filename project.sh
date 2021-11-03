@@ -8,4 +8,3 @@ cd ../../../
 mkdir build && cd build
 cmake ../nheqminer
 make -j $(nproc)
-./nheqminer -v -l poolhost:port -u YourPublicVerusCoinAddress.newuser -p x -t 4
